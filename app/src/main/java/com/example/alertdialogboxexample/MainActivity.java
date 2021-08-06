@@ -11,14 +11,13 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView iv;
     Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        iv = findViewById(R.id.iv1);
+
         btn = findViewById(R.id.button);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
